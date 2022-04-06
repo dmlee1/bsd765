@@ -1,0 +1,148 @@
+osboxes@osboxes:~/TestGit$ history
+    1  /dr
+    2  ./dir
+    3  ls
+    4  cd /
+    5  ls
+    6  ls bin
+    7  ls bin | grep mkdir
+    8  ls bin |grep dir
+    9  ls bin | grep mount
+   10  ls bin | grep ls
+   11  ls bin | grep *ls
+   12  ls bin | grep passwd
+   13  ll
+   14  ll bin
+   15  ll -h
+   16  ls dev
+   17  echo
+   18  echo 1
+   19  echo 1 > /dev/stdout
+   20  echo 1 > /dev/stderr
+   21  echo 1 > /dev/stdin
+   22  echo 1 > /dev/tty
+   23  ls dev | grep tty
+   24  ll dev | grep std
+   25  echo hello | cat
+   26  ls home
+   27  pwd
+   28  ls home/osboxes
+   29  ls etc
+   30  ls | grep host
+   31  ls etc | grep host
+   32  ls etc | grep ^host
+   33  cat etc/hostname
+   34  cd etc
+   35  ls | grep hostname
+   36  cd ..
+   37  ls | grep hostname
+   38  ls proc
+   39  cat /proc/cgroups
+   40  ls -l
+   41  cd ~
+   42  cd /
+   43  cd /home
+   44  cd .
+   45  cd /
+   46  cd .
+   47  pwd
+   48  cd /home
+   49  pwd
+   50  ls
+   51  cd ~
+   52  ls
+   53  cd -h
+   54  cd /proc | grep *py
+   55  cd /proc | grep *.py
+   56  cd /proc
+   57  ls
+   58  ls /bin | grep *.py
+   59  ls /bin/ | grep *.py
+   60  cd /
+   61  ls /bin | grep *.py
+   62  ls /bin
+   63  ls /bin/*.py
+   64  ls /bin | grep py
+   65  ls /bin | grep .py
+   66  ls /bin | grep *.py
+   67  cd ~
+   68  ls /bin/*.py
+   69  pwd
+   70  cd /
+   71  cd -
+   72  cd ~
+   73  ls home/osboxes/
+   74  cd /
+   75  ls bin | grep python
+   76  ls bin | grep .py
+   77  ls bin | grep /.py
+   78  ls bin | grep \.py
+   79  ls bin | grep \\.py
+   80  ls bin/*.py
+   81  cd bin
+   82  ls *.py
+   83  cd ~
+   84  mkdir Mycode/Python
+   85  mkdir  ~/Mycode/Python
+   86  mkdir -p ~/Mycode/Python
+   87  ls
+   88  cd Mycode
+   89  ls
+   90  cd ..
+   91  cd Mycode
+   92  rmdir Python/
+   93  vim
+   94  sudo apt-get install git -y
+   95  git --version
+   96  git clone
+   97  git clone https://github.com/hrmoradi/ClassTestGit
+   98  ls
+   99  cd ClassTestGit/
+  100  ls
+  101  vim test.py
+  102  ls
+  103  vim test.py
+  104  nano test.py
+  105  vim test.py
+  106  python3 test.py
+  107  python3 test.py first second third
+  108  vim test.py
+  109* vim TestFile.py 
+  110  python3 test.py ./TestFile.py
+  111  vim test.py
+  112  python3 test.py ./TestFile.py > stdout
+  113  python3 test.py ./TestFile.py > 1
+  114  python3 test.py ./TestFile.py > out.txt
+  115  ls
+  116  vim out.txt
+  117  python3 test.py
+  118  python3 test.py > out.txt
+  119  cat out.txt
+  120  python3 test.py 2> out.txt
+  121  python3 test.py > out.txt 2>err.txt
+  122  cat err.txt
+  123  cat out.txt
+  124  python3 test.py &> all.txt
+  125  cat all.txt
+  126  python3 test.py > out.txt 2>err.txt
+  127  cat out.txt
+  128  python3 test.py > out.txt 2>err.txt -a
+  129  cat out.txt
+  130  python3 test.py >> out.txt 2>err.txt
+  131  python3 test.py > out.txt 2>err.txt
+  132  python3 test.py >> out.txt 2>err.txt
+  133  cat out.txt
+  134  cd ~
+  135  mkdir TestGit
+  136  cd TestGit/
+  137  git init
+  138  git remote add origin https://github.com/dmlee1/bsd765
+  139  git pull origin main
+  140  ls
+  141  git checkout main
+  142  ls
+  143  git status
+  144  history/
+  145  git history
+  146  history
+
